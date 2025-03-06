@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import pandas as pd
-from model import recommend_products, df
+from model import recommend_products, data
 
 app = Flask(__name__)
 
@@ -11,12 +11,12 @@ def home():
 @app.route("/recommend", methods=["GET"])
 def recommend():
     try:
-        product_id = int(request.args.get("product_id"))  # Get product ID from request
-        if product_id not in df["product_id"].values:
-            return jsonify({"error": "Product ID not found!"}), 404
+        product_name = request.args.get("product_name")  # Get product name from request
+        if product_name not in data["product_name"].values:
+            return jsonify({"error": "Product name not found!"}), 404
         
-        recommendations = recommend_products(product_id)
-        return jsonify({"product_id": product_id, "recommendations": recommendations})
+        recommendations = recommend_products(product_name)
+        return jsonify({"product_name": product_name, "recommendations": recommendations})
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
