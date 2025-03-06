@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 from model import recommend_products, data
 
+
 app = Flask(__name__)
 
 @app.route("/")
