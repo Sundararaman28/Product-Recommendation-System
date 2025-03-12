@@ -4,3 +4,99 @@ product_id,product_name,category,description
 2,Google Pixel 8 Pro,Mobile,AI-powered smartphone with great camera
 3,Asus ROG Laptop,Laptop,High-performance gaming laptop with RTX 4070
 4,Dell XPS 15,Laptop,Premium ultrabook with a 4K OLED display
+5,MacBook Pro M3,Laptop,Apple's latest laptop with M3 chip
+6,HP Spectre x360,Laptop,Convertible laptop with touch display
+7,Lenovo Legion 7i,Laptop,Gaming laptop with Intel i9 and RTX 4080
+8,OnePlus 12,Mobile,Flagship killer with Snapdragon 8 Gen 3
+9,Nothing Phone 2,Mobile,Unique transparent design with Glyph interface
+10,Realme GT 5 Pro,Mobile,High-performance phone with 240W fast charging
+11,Motorola Edge 40,Mobile,Curved pOLED display with Dimensity 8020
+12,Redmi Note 13 Pro,Mobile,Affordable 200MP camera phone
+13,Asus Zenbook 14,Laptop,Lightweight ultrabook with OLED display
+14,Acer Predator Helios,Laptop,Top-tier gaming laptop with RTX graphics
+15,Alienware x16,Laptop,Premium gaming laptop with RGB lighting
+16,Google Pixel Tablet,Tablet,Android tablet optimized for AI features
+17,Samsung Galaxy Tab S9,Tablet,AMOLED display with S-Pen support
+18,iPad Pro 12.9,Tablet,Apple M2 chip with ProMotion display
+19,Lenovo Tab P12 Pro,Tablet,High-end Android tablet with AMOLED screen
+20,Microsoft Surface Pro 9,Tablet,2-in-1 laptop replacement with stylus
+21,Canon EOS R7,Camera,Mirrorless camera with APS-C sensor
+22,Nikon Z6 II,Camera,Full-frame mirrorless with 4K video
+23,Sony Alpha a7 IV,Camera,Mirrorless camera with advanced autofocus
+24,GoPro Hero 12,Camera,Action camera with improved stabilization
+25,DJI Osmo Action 4,Camera,Compact action camera for adventure
+26,Sony WH-1000XM5,Headphone,Industry-leading noise-cancelling headphones
+27,Bose QuietComfort Ultra,Headphone,Comfortable headphones with ANC
+28,Apple AirPods Max,Headphone,Premium over-ear headphones from Apple
+29,JBL Tune 760NC,Headphone,Affordable noise-cancelling headphones
+30,Skullcandy Crusher Evo,Headphone,Headphones with haptic bass
+31,LG C3 OLED TV,Television,4K OLED TV with AI processor
+32,Samsung QN90C QLED TV,Television,Mini-LED 4K TV with HDR
+33,Sony Bravia XR A95L,Television,Premium OLED TV with XR processor
+34,OnePlus TV U1S,Television,4K smart TV with Android OS
+35,TCL 6-Series R655,Television,Affordable mini-LED 4K TV
+36,Amazon Echo Dot 5,Smart Home,Compact smart speaker with Alexa
+37,Google Nest Audio,Smart Home,Smart speaker with Google Assistant
+38,Apple HomePod Mini,Smart Home,Smart speaker with Siri integration
+39,TP-Link Tapo Cam C200,Smart Home,WiFi security camera with night vision
+40,Mi Smart Air Fryer,Smart Home,Smart air fryer with app control
+41,Logitech MX Master 3S,Accessory,Ergonomic wireless mouse for professionals
+42,Apple Magic Keyboard,Accessory,Wireless keyboard for Apple devices
+43,Razer Huntsman Mini,Accessory,60% mechanical gaming keyboard
+44,Logitech G Pro X,Accessory,Gaming headset with Blue Voice mic
+45,WD My Passport SSD,Accessory,Portable SSD with fast data transfer
+46,Fitbit Charge 6,Wearable,Fitness tracker with heart rate monitor
+47,Apple Watch Series 9,Wearable,Smartwatch with health and fitness features
+48,Samsung Galaxy Watch 6,Wearable,Advanced fitness tracking with Wear OS
+49,Garmin Venu 3,Wearable,Premium smartwatch with GPS and AMOLED screen
+50,Noise ColorFit Ultra 3,Wearable,Affordable smartwatch with large display
+51,Sony PlayStation 5,Gaming,Next-gen gaming console with exclusive titles
+52,Xbox Series X,Gaming,Powerful gaming console with Game Pass
+53,Nintendo Switch OLED,Gaming,Hybrid console with upgraded display
+54,Asus ROG Ally,Gaming,Handheld gaming console with Windows 11
+55,Steam Deck,Gaming,Portable PC gaming handheld
+56,KitchenAid Stand Mixer,Appliance,Iconic kitchen mixer for baking
+57,Philips Air Fryer,Appliance,Healthier frying option for home cooks
+58,Instant Pot Duo,Appliance,Multi-functional pressure cooker
+59,Dyson V15 Vacuum,Appliance,High-tech cordless vacuum cleaner
+60,Mi Robot Vacuum Mop,Appliance,Robot vacuum with mopping feature
+61,Amazon Kindle Paperwhite,Electronics,E-reader with waterproof design
+62,Samsung Galaxy Book 3,Laptop,Slim laptop with AMOLED screen
+63,Dell Inspiron 16,Laptop,Affordable laptop with large display
+64,HP Pavilion 14,Laptop,Compact laptop for students
+65,Lenovo IdeaPad Flex 5,Laptop,Convertible laptop with Ryzen CPU
+66,Asus VivoBook 15,Laptop,Budget-friendly laptop with Intel chip
+67,Apple iPad 10th Gen,Tablet,Entry-level tablet with powerful A14 chip
+68,Realme Pad X,Tablet,Affordable tablet with stylus support
+69,Lenovo Yoga Tab 13,Tablet,Entertainment-focused tablet with kickstand
+70,Microsoft Surface Laptop 5,Laptop,Premium Windows laptop
+71,Sony WF-1000XM5,Headphone,Best-in-class noise-cancelling earbuds
+72,Apple AirPods Pro 2,Headphone,Wireless earbuds with ANC and spatial audio
+73,Boat Airdopes 441,Headphone,Budget-friendly wireless earbuds
+74,JBL Wave Beam,Headphone,Affordable TWS with deep bass
+75,Realme Buds Air 5,Headphone,ANC-enabled wireless earbuds
+76,Mi QLED TV 75,Television,Large 75-inch 4K QLED smart TV
+77,Vu GloLED TV 55,Television,Budget 55-inch 4K TV with Dolby Vision
+78,Hisense U7H QLED TV,Television,Feature-rich QLED TV
+79,Redmi Smart TV X65,Television,65-inch 4K TV with Android OS
+80,Philips Hue Starter Kit,Smart Home,Smart lighting with color ambiance
+81,Wipro Smart LED Bulb,Smart Home,WiFi bulb with app control
+82,Google Nest Hub,Smart Home,Smart display with Assistant
+83,Amazon Echo Show 8,Smart Home,Smart display with Alexa
+84,Dyson Air Purifier,Smart Home,Advanced air purification system
+85,Boat Storm Call,Wearable,Smartwatch with calling feature
+86,Fire-Boltt Visionary,Wearable,Stylish smartwatch with AMOLED screen
+87,Noise Icon 2,Wearable,Budget smartwatch with SpO2 monitoring
+88,Apple Mac Studio,Desktop,Professional desktop with M2 Ultra
+89,Intel NUC 13,Desktop,Compact PC with Intel 13th Gen
+90,Dell XPS Desktop,Desktop,Powerful desktop for creators
+91,HP Omen 45L,Desktop,Gaming desktop with liquid cooling
+92,Lenovo ThinkCentre M70q,Desktop,Compact business desktop
+93,Canon Pixma G3020,Printer,Ink tank printer for home use
+94,HP Smart Tank 580,Printer,All-in-one color printer
+95,Epson EcoTank L3250,Printer,Affordable ink tank printer
+96,Brother HL-L2351DW,Printer,Compact wireless mono laser printer
+97,Samsung Jet 90 Vacuum,Appliance,Cordless vacuum with powerful suction
+98,Amazon Fire TV Stick,Electronics,Streaming device for TVs
+99,Chromecast with Google TV,Electronics,Stream content from apps to TV
+100,Apple TV 4K 3rd Gen,Electronics,Streaming box with Apple ecosystem
