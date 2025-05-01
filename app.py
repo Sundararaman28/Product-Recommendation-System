@@ -1,26 +1,17 @@
 from flask import Flask, request, jsonify
-import pandas as pd
-from model import recommend_products, data
-
+from model import get_similar_products
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
-    return "Welcome to the Product Recommendation API!"
+    return "Welcome to Collaborative Recommender!"
 
-@app.route("/recommend", methods=["GET"])
+@app.route('/recommend')
 def recommend():
-    try:
-        product_name = request.args.get("product_name")  # Get product name from request
-        if product_name not in data["product_name"].values:
-            return jsonify({"error": "Product name not found!"}), 404
-        
-        recommendations = recommend_products(product_name)
-        return jsonify({"product_name": product_name, "recommendations": recommendations})
-    
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+    product_id = request.args.get('product_id')
+    recommendations = get_similar_products(product_id)
+    return jsonify({"recommended": recommendations})
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
