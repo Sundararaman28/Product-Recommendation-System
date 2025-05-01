@@ -11,7 +11,7 @@ def home():
 def recommend():
     product_id = request.args.get('product_id')
     recommendations = get_similar_products(product_id)
-    return jsonify({"recommended": recommendations})
+    return jsonify({"recommendeds": recommendations})
 
 if __name__ == '__main__':
     app.run(debug=True)
